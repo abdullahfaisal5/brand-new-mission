@@ -3,8 +3,9 @@ body {
     margin: 0%;
 }
 
-section {
+.top-banner {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .half-width {
@@ -22,6 +23,14 @@ h1 {
     padding-left: 10px;
 }
 
+h2 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 .red-color {
     color: rgb(207, 1, 1);
 }
@@ -33,4 +42,46 @@ h1 {
     color: aliceblue;
     font-weight: 500;
     border-radius: 5px;
+}
+
+.mission-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.mission-items {
+    display: flex;
+
+}
+
+.each-mission {
+    width: 310%;
+    margin: 4%;
+
+}
+
+.mission-items img {
+    width: 45%;
+}
+
+.mission-one {
+    background-color: rgba(244, 165, 96, 0.493);
+    border-radius: 10px;
+
+    padding: 15px;
+}
+
+.mission-two {
+    background-color: rgba(127, 255, 212, 0.562);
+    border-radius: 10px;
+
+    padding: 15px;
+}
+
+.mission-three {
+    background-color: rgba(170, 230, 67, 0.432);
+    border-radius: 10px;
+    padding: 15px;
 }
