@@ -13,18 +13,23 @@ body {
     padding: 4%;
 }
 
-.half-width img {
+.spider-man {
     width: 90%;
 }
 
+
 h1 {
     font-size: 55px;
+
+}
+
+.top-heading {
     border-left: 3px solid red;
     padding-left: 10px;
 }
 
 h2 {
-    text-align: center;
+    font-size: 45px;
 }
 
 h4 {
@@ -47,7 +52,7 @@ h4 {
 .mission-heading {
     text-align: center;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -84,4 +89,25 @@ h4 {
     background-color: rgba(170, 230, 67, 0.432);
     border-radius: 10px;
     padding: 15px;
+}
+
+.spiderman-selfie {
+    width: 90%;
+}
+
+.spiderman-works {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.project-picture {
+    width: 75%;
+}
+
+.community-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
